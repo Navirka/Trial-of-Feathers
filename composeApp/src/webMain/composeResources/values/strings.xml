@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Trial of Feathers</string>
+
+    <!-- Backgrounds -->
+    <string name="background">Background</string>
+    <string name="background_game">Game Background</string>
+    <string name="background_records">Records Background</string>
+    <string name="background_privacy">Privacy Policy Background</string>
+
+    <!-- Buttons -->
+    <string name="back_button">Back to menu</string>
+    <string name="pause_button">Pause game</string>
+    <string name="resume_button">Resume game</string>
+    <string name="exit_button">Exit to menu</string>
+
+    <!-- Game elements -->
+    <string name="logo">App Logo</string>
+    <string name="button_background">Button background</string>
+    <string name="wheel">Wheel of Fortune</string>
+    <string name="arrow">Arrow pointer</string>
+
+    <!-- Progress bar -->
+    <string name="progress_loading">Loading progress</string>
+
+    <!-- Icons -->
+    <string name="arrow_back">Back arrow</string>
+    <string name="pause_icon">Pause icon</string>
+
+    <!-- Labels -->
+    <string name="balance">BALANCE</string>
+    <string name="spins_left">SPINS LEFT</string>
+    <string name="start">START</string>
+    <string name="start_again">START AGAIN</string>
+    <string name="pause">PAUSE</string>
+    <string name="resume">RESUME</string>
+    <string name="exit">EXIT</string>
+    <string name="start_button">START</string>
+    <string name="spinning">SPINNING...</string>
+    <string name="game_over">GAME OVER</string>
+
+    <!-- Menu -->
+    <string name="menu_background">Menu background</string>
+    <string name="start_game">START</string>
+    <string name="records">RECORDS</string>
+    <string name="privacy_policy">PRIVACY POLICY</string>
+    <string name="no_records_yet">NO RECORDS YET</string>
+    <string name="record_item">Record item</string>
+</resources>
