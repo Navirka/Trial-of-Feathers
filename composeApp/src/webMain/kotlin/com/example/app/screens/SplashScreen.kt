@@ -44,7 +44,10 @@ fun SplashScreen(
         animateProgress(from = 0.65f, to = 0.85f, duration = 800L) { value ->
             progress = value
         }
-        delay(300)
+    }
+
+    LaunchedEffect(Unit) {
+        delay(2000)
 
         onNavigateToMenu()
     }
