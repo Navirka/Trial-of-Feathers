@@ -26,7 +26,7 @@ fun AppNavGraph(navController: NavHostController) {
             composable(Screen.Splash.route) {
                 SplashScreen(
                     onNavigateToMenu = {
-                        navController.navigateSafely(Screen.Menu.route) {
+                        navController.navigate(Screen.Menu.route) {
                             popUpTo(Screen.Splash.route) { inclusive = true }
                         }
                     }

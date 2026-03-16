@@ -33,22 +33,9 @@ fun SplashScreen(
     var progress by remember { mutableStateOf(0f) }
 
     LaunchedEffect(Unit) {
-        animateProgress(from = 0f, to = 0.5f, duration = 1000L) { value ->
-            progress = value
-        }
-
-        animateProgress(from = 0.5f, to = 0.65f, duration = 500L) { value ->
-            progress = value
-        }
-
-        animateProgress(from = 0.65f, to = 0.85f, duration = 800L) { value ->
-            progress = value
-        }
-    }
-
-    LaunchedEffect(Unit) {
-        delay(2000)
-
+        animateProgress(from = 0f, to = 0.45f, duration = 800) { progress = it }
+        animateProgress(from = 0.45f, to = 1f, duration = 800) { progress = it }
+        delay(300)
         onNavigateToMenu()
     }
 

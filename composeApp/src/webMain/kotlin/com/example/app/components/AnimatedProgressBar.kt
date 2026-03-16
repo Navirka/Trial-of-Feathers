@@ -27,8 +27,8 @@ fun AnimatedProgressBar(
 
     val currentImage = when {
         animatedProgress <= 0f -> Res.drawable.loading0    // 0%
-        animatedProgress <= 0.45f -> Res.drawable.loading1   // 50%
-        else -> Res.drawable.loading2                       // 85%
+        animatedProgress <= 0.9f -> Res.drawable.loading1  // 1–90%
+        else -> Res.drawable.loading2                       // 90–100%
     }
 
     Image(
